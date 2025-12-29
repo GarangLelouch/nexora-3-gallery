@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
 */
-import {Video} from './types.ts';
+import Video from './types.ts';
 
 /** Base URL for static files. */
 const staticFilesUrl =

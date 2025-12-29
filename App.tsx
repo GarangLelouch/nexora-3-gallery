@@ -2,16 +2,16 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
 */
-import React, {useState, useEffect} from 'react';
-import {StudioPage} from './components/StudioPage.tsx';
-import {ErrorModal} from './components/ErrorModal.tsx';
-import {InfoModal} from './components/InfoModal.tsx';
-import {VideoCameraIcon, PlusIcon} from './components/icons.tsx';
-import {SavingProgressPage} from './components/SavingProgressPage.tsx';
-import {VideoGrid} from './components/VideoGrid.tsx';
-import {VideoPlayer} from './components/VideoPlayer.tsx';
-import {MOCK_VIDEOS} from './constants.ts';
-import {Video, GenerationConfig} from './types.ts';
+import React, useState, useEffect from 'react';
+import StudioPage from './components/StudioPage.tsx';
+import ErrorModal from './components/ErrorModal.tsx';
+import InfoModal from './components/InfoModal.tsx';
+import VideoCameraIcon, PlusIcon from './components/icons.tsx';
+import SavingProgressPage from './components/SavingProgressPage.tsx';
+import VideoGrid from './components/VideoGrid.tsx';
+import VideoPlayer from './components/VideoPlayer.tsx';
+import MOCK_VIDEOS from './constants.ts';
+import Video, GenerationConfig from './types.ts';
 
 import {GoogleGenAI} from '@google/genai';
 
